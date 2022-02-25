@@ -1,5 +1,5 @@
 # customscript-signuptoken
-A moodle 3.11.5+ Customscript version of /login/signup.php for use with local-signuptoken
+A moodle 3.11.5+ Customscript version of /login/signup.php for use with [local-signuptoken](https://github.com/frumbert/local_signuptoken)
 
 ## Installation
 
