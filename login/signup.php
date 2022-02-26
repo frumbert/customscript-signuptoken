@@ -91,6 +91,7 @@ if (!$authplugin = signup_is_enabled()) {
 
 $PAGE->set_url('/login/signup.php');
 $PAGE->set_context(context_system::instance());
+$PAGE->set_pagelayout('login');
 
 // If wantsurl is empty or /login/signup.php, override wanted URL.
 // We do not want to end up here again if user clicks "Login".
