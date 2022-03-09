@@ -75,7 +75,7 @@ function CUSTOMSCRIPT_user_signup_with_confirmation($user, $notify=true, $confir
         $PAGE->set_title($emailconfirm);
         $PAGE->set_heading($PAGE->course->fullname);
         echo $OUTPUT->header();
-        notice(get_string('emailconfirmsent', '', $user->email), "$CFG->wwwroot/index.php");
+        notice(get_string('emailconfirmsent', '', $user->email), "$CFG->wwwroot/index.php"); // exits after drawing a box
     } else {
         return true;
     }
